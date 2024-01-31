@@ -1,11 +1,11 @@
-/*
-A função abaixo pergunta à pessoa suas três cores favoritas e imprime no console um array contendo essas três cores. 
 
-Refatore a função para o Typescript.
-*/
+// A função abaixo pergunta à pessoa suas três cores favoritas e imprime no console um array contendo essas três cores. 
 
-/* DESCOMENTE ESTA FUNÇÃO
-function imprimeTresCoresFavoritas() {
+// Refatore a função para o Typescript.
+
+
+
+function imprimeTresCoresFavoritas(): void {
   const cor1 = process.argv[2]
   const cor2 = process.argv[3]
   const cor3 = process.argv[4]
@@ -14,4 +14,4 @@ function imprimeTresCoresFavoritas() {
 }
 
 imprimeTresCoresFavoritas()
-*/
+
